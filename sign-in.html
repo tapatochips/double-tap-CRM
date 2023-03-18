@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="app.css">
     <title>Double Tap CRM</title>
@@ -16,24 +16,27 @@
 <body>
     <div class="container ">
         <div>
-            <img src="sign-in.png" alt="sign-in">
+            <img src="sign-in.png" alt="sign-in" class="moon">
         </div>
         <div class="right">
             <h1>Sign In</h1>
             <form class="sign-in">
                 <div class="mb-3">
-                    <div class="input-icons">
-                        <label for="username" class="form-label"><i class="far fa-user"></i>Username</label>
-                        <input type="username" id="username" class="form-control rounded-pill" <i
-                            class="far fa-user"></i>>
-                        <label for="email" class="form-label">Email Address </label>
-                        <input type="email" class="form-control rounded-pill" id="email" aria-describedby="emailHelp">
-                        <div class="mb-3">
-                            <label for="password" class="form-label"><i class="bi bi-lock"></i>Password</label>
-                            <input type="password" class="form-control rounded-pill" id="password">
-                        </div>
+                    <label for="username" class="form-label"><i class="far fa-user"></i>Username</label>
+                    <input type="username" id="username" class="form-control rounded-pill" <i class="far fa-user"></i>>
+                    <label for="email" class="form-label">Email Address </label>
+                    <input type="email" class="form-control rounded-pill" id="email" aria-describedby="emailHelp">
+                    <div class="mb-3">
+                        <label for="password" class="form-label"><i class="bi bi-lock"></i>Password</label>
+                        <input type="password" class="form-control rounded-pill" id="password">
                     </div>
-                    <button type="submit" class="btn btn-primary rounded-pill" id="sign-in">In</button>
+
+                    <button type="submit" class="btn btn-primary rounded-pill" id="sign-in">Sign In</button>
+                    <h6 id="texts">or Sign up with social platforms</h6>
+                    <button class="btn" id="icon"><i class="fa-brands fa-facebook-f"></i></button>
+                    <button class="btn" id="icon"><i class="fa-brands fa-twitter"></i></button>
+                    <button class="btn" id="icon"><i class="fa-brands fa-google"></i></button>
+                    <button class="btn" id="icon"><i class="fa-brands fa-linkedin"></i></button>
             </form>
         </div>
     </div>
