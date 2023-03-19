@@ -27,6 +27,23 @@ a {
     display: flex;
 }
 
+
+.container {
+    justify-content: space-around;   
+    position: absolute;
+    left: 5rem; 
+}
+
+#center {
+    justify-content: space-around;
+    position: absolute;
+    left: 5rem;
+    margin-right: 200px;
+}
+
+h1 {
+text-align: left;    
+}
 #sign-in {
     width: 96px;
     margin-left: 120px;
@@ -34,4 +51,67 @@ a {
 
 #try-it-free {
     margin-left: 20px;
+}
+
+#header-img {
+    width: 400px;
+    height: 400px;
+    margin-left: 50rem;
+    left: 20rem;
+    margin-bottom: 5rem;
+    
+}
+
+h3 {
+    width: 600px;
+    font-size: medium;
+    text-align: left;
+}
+
+#line {
+    color: black;
+}
+
+#sign-up{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    width: 120px;
+    justify-content: space-around;
+}
+
+#chat {
+    height: 40px;
+    width: 130px;
+    display: inline-flex;
+    justify-content: flex-start;
+
+}
+
+#already {
+    margin-right: 45px;
+}
+
+#free {
+    width: 125px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+#manage{
+    width: 125px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+p {
+    text-align: left;
+}
+
+#cancel {
+    display: flex;
+    justify-content: flex-start;
 }
