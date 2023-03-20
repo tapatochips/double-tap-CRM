@@ -1,8 +1,7 @@
 h2{
-    width: 30%;
+    width: auto;
     margin: auto;
-    margin-left: 50rem;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 .middle13{
     margin: auto;
@@ -14,8 +13,6 @@ h2{
 .middle24{
     margin: auto;
     width: 30rem;
-    margin-left: 20rem;
-    margin-top: 1.5rem;;
 }
 #image1 {
  max-width: 500px;
@@ -39,6 +36,8 @@ h2{
     display: grid;
     grid-row: span;
   margin: auto;
+  
+  
    
    
 }
@@ -70,5 +69,3 @@ font-size: 12pt;
 h{
     margin-bottom: 25px;
 }
-
-
