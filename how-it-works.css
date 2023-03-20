@@ -113,3 +113,36 @@ p {
     display: flex;
     justify-content: flex-start;
 }
+
+
+.try {
+    text-align: center;
+    color: white;
+    margin: 30px;
+}
+
+.started {
+    text-align: center;
+    color: white;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: blue;
+    height: 300px;
+    width: 2000px;
+}
+
+#getbtn {
+    width: 150px;
+    margin: 20px;
+}
+
+#chatbtn {
+    width: 150px;
+    justify-content: space-around;
+}
+
+#footerh6 {
+    color: white;
+}
