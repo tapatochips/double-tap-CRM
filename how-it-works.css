@@ -54,12 +54,9 @@ text-align: left;
 }
 
 #header-img {
-    width: 400px;
-    height: 400px;
-    margin-left: 50rem;
-    left: 20rem;
-    margin-bottom: 5rem;
-    
+    width: 600px;
+    height: 600px;
+    display: flex;
 }
 
 h3 {
@@ -72,21 +69,22 @@ h3 {
     color: black;
 }
 
-#sign-up{
+#sign-up-chat{
     display: flex;
     justify-content: flex-start;
-    height: 40px;
-    width: 120px;
+    height: 60px;
+    width: 170px;
     justify-content: space-around;
+    margin-right: 30px;
+    align-content: start;
+    text-align: center;
 }
 
-#chat {
-    height: 40px;
-    width: 130px;
-    display: inline-flex;
-    justify-content: flex-start;
-
+#signupbtn {
+    text-align: center;
 }
+
+
 
 #already {
     margin-right: 45px;
