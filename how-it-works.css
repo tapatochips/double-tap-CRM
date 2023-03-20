@@ -129,8 +129,16 @@ p {
 
 .footer {
     background-color: blue;
-    height: 300px;
-    width: 2000px;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    margin-top: 100%;
+    justify-content: space-around;
+
+    
+
 }
 
 #getbtn {
@@ -143,6 +151,15 @@ p {
     justify-content: space-around;
 }
 
+#footerh1{
+    text-align: center;
+    color: white;
+}
+
 #footerh6 {
+    color: white;
+}
+
+#last {
     color: white;
 }
