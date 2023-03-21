@@ -12,19 +12,13 @@ header {
     
 }
 
-a {
-    color: black;
-    justify-content: space-around;
-    text-align: center;
-    display: flex;
-    margin: 50px;
-}
 
 .nav-link{
     color: black;
     justify-content: space-around;
     text-align: center;
     display: flex;
+    margin: 50px;
 }
 
 
@@ -41,9 +35,10 @@ a {
     margin-right: 200px;
 }
 
-h1 {
+#focus {
 text-align: left;    
 }
+
 #sign-in {
     width: 96px;
     margin-left: 120px;
@@ -59,7 +54,13 @@ text-align: left;
     display: flex;
 }
 
-h3 {
+#small {
+    width: 600px;
+    font-size: medium;
+    text-align: left;
+}
+
+#already {
     width: 600px;
     font-size: medium;
     text-align: left;
